@@ -12,7 +12,3 @@ class WeedTest(unittest.TestCase):
 
     def test_skipped_vertex(self):
         self.assertEqual(wedd("skipped_vertex.txt"), 2)
-
-
-if __name__ == '__main__':
-    unittest.main()
